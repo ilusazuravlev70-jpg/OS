@@ -1,6 +1,20 @@
-___pycache__/
+# Python
+__pycache__/
 *.pyc
-*.sqlite
+*.pyo
+*.pyd
 .venv/
+
+# VS Code
 .vscode/
+
+# SQLite
+*.sqlite
+db/os.sqlite
+
+# Логи
+logs/
 *.log
+
+# Environment variables
+.env
